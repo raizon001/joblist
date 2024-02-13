@@ -1,0 +1,114 @@
+
+
+main {
+    position: relative;
+    width: 100%;
+    height: 300%;
+    background-image: linear-gradient(to left, rgb(7, 116, 25), rgb(216, 233, 218));
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+header img {
+    margin-top: 15px;
+    float: left;
+    width: 340px;
+    margin-left: 3%;
+    margin-bottom: 1%;
+}
+
+h2 {
+    
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgb(65, 64, 64);
+    margin-left: 40%;
+    color: rgb(255, 255, 255);
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+h3 {
+    border-radius: 5px;
+    color: #fbfcff;;
+    text-shadow: 2px 2px 5px rgb(65, 64, 64);
+    background-color: green;
+    width: min-content;
+    border: 1px solid #0c0c0c;
+    font-size: 25px;
+    white-space: nowrap;
+    margin-bottom: 4%;
+    margin-left: 1%;
+    margin-right: 7%;
+    margin-top: 7%;
+    padding: 0.5%;
+}
+
+.container{
+   max-width: 900px;
+   margin: 0px auto;
+}
+
+.apply-box{
+    max-width: 600px;
+    padding: 20px;
+
+    margin: 0px auto;
+    margin-top: 50px;
+    border:1px solid rgb(255, 255, 255,0.3);
+    box-shadow: rgb(0, 0, 0, 0.1) ;
+    background: rgb(255, 255, 255,0.2) ;
+    border-radius: 40px;
+}
+
+.form-container{
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+
+input,select,textarea{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-bottom:2% ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+
+}
+
+.submit-btn {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: green;
+    width: 120px;
+    border: 1px solid #000000;
+    margin-top: 20px;
+    margin-left: 46%;
+    text-align: center;
+    height: 3%;
+     border-radius: 5px;
+}
+
+.goback-buttons {
+    margin-top: 15px;
+    margin-bottom: 4%;
+   margin-left: 50%;
+}
+
+.goback-button {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+    margin-bottom: 2%;
+    font-weight: bold;
+    float: center;
+}
+

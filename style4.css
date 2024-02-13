@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  background: #ffffff;
+  padding: 2px 0;
+  margin-bottom: 2px;
+  margin: 0;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+.main {
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  height: 0vh;
+  margin-top: 2%;
+}
+
+.navbar {
+  width: 1200px;
+  height: 5px;
+  margin: auto;
+}
+
+header img {
+  margin-top: 2px;
+  float: left;
+  width: 300px;
+  margin-left: 2%;
+}
+
+.page-title {
+  font-size: 23px;
+  float: center;
+  margin-left: 32%;
+  margin-top: 1%;
+  color: rgb(21, 104, 21);
+  letter-spacing: 2px;
+  text-shadow: 0px 11px 10px rgba(81, 67, 21, 0.8);
+  margin-bottom: 0%;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+  padding: 10px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 98%;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 80px;
+  margin-top: 27px;
+  font-size: large;
+  white-space: nowrap;
+  z-index: 5;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: Andale Mono, monospace;
+  font-weight: lighter;
+  transition: 0.5s ease-in-out;
+  font-weight: bold;
+}
+
+.menu ul li a:hover {
+  color: green;
+}
+
+.active {
+  color: rgb(211, 211, 94);
+  z-index: 5;
+}
+
+.search {
+  width: 330px;
+  float: right;
+  margin-left: 21%;
+  margin-right: 20v;
+}
+
+.srch {
+  width: 120px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #000000;
+  border-radius: 1px;
+  border-right: none;
+  margin-top: 0%;
+  font-size: 16px;
+  float: left;
+  padding: 2px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn {
+  width: 80px;
+  height: 40px;
+  background-color: green;
+  border: 1px solid #000000;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.green-background {
+  background-color: green;
+  position: absolute;
+  top: 60%;
+  bottom: 0;
+  left: 0;
+  margin-top: 0%;
+  height: 60%;
+  width: 100%;
+  z-index: -5;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.srch:focus {
+  outline: none;
+}
+
+.green-background {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 70%;
+  margin-bottom: 12%;
+  padding: 10px;
+  height: 0%;
+  width: 100%;
+  z-index: -5;
+}
+
+.job {
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: green;
+  margin-left: 40%;
+  width: 20%;
+  text-align: center;
+  white-space: nowrap;
+  padding: 3px;
+  font-size: 32px;
+  margin-bottom: 8px;
+  margin-top: 8%;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.vaclist {
+  margin-top: 2%;
+  width: calc(31.33% - 14px);
+  border: 1px solid #000000;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+.vaclist h2 {
+  margin-top: 0;
+  white-space: nowrap;
+  margin-bottom: 3%;
+  font-size: 20px;
+  text-align: center;
+  border: #000000;
+}
+
+.vaclist p {
+  margin-bottom: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular',
+}
+
+.faculty-image {
+  width: 100%; /* Adjust the width as needed */
+  height: auto;
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
